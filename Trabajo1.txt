@@ -17,5 +17,12 @@ public class Trabajo {
             System.out.println("Ingrese A para Automovil");
             System.out.println("Ingrese M para Motocicleta");
             vehiculo = sc.nextLine();
+            
+            System.out.println("Ingrese la Vía Origen");
+            viaOrigen = sc.nextLine();
+
+            System.out.println("Ingrese la Vía Destino");
+            viaDestino = sc.nextLine();
+
         
         

@@ -58,6 +58,16 @@ public class Trabajo {
             char vehiculo = registro.charAt(0);
             char viaOrigen = registro.charAt(1);
             char viaDestino = registro.charAt(2);
+            
+           if (vehiculo == ("C").charAt(0)){
+                totalCamion += 1;
+            }
+            if (vehiculo == ("A").charAt(0)){
+                totalAutomovil += 1;
+            }
+            if (vehiculo == ("M").charAt(0)){
+                totalMotocicleta += 1;
+            }
 
 
  

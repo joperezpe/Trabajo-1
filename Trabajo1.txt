@@ -51,6 +51,13 @@ public class Trabajo {
         int totalGirosCamion = 0;
         int totalGirosAutomovil = 0;
         int totalGirosMotocicleta = 0;
+        
+        for (int i = 0; i < registros.size(); i ++){
+            String registro = registros.get(i);
+            boolean giro;
+            char vehiculo = registro.charAt(0);
+            char viaOrigen = registro.charAt(1);
+            char viaDestino = registro.charAt(2);
 
 
  

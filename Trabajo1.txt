@@ -68,6 +68,26 @@ public class Trabajo {
             if (vehiculo == ("M").charAt(0)){
                 totalMotocicleta += 1;
             }
+            
+             if (viaOrigen != viaDestino){
+                giro = true;
+            }else{
+                giro = false;
+            }
+
+            if (giro == true){
+                totalGiros += 1;
+            }
+            if (vehiculo == ("C").charAt(0) && giro == true){
+                totalGirosCamion += 1;
+            }
+            if (vehiculo == ("A").charAt(0) && giro == true){
+                totalGirosAutomovil += 1;
+            }
+            if (vehiculo == ("M").charAt(0) && giro == true){
+                totalGirosMotocicleta += 1;
+            }
+        }
 
 
  

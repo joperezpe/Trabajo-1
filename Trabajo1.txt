@@ -27,6 +27,16 @@ public class Trabajo {
             System.out.println("Ingrese 1 si Quiere seguir recolectando datos");
             System.out.println("Ingrese 2 si No quiere seguir recolectando datos");
             entrada = sc.nextLine();
+            
+            formato = vehiculo + viaOrigen + viaDestino;
+            registros.add(formato);
+
+            if (entrada.equals("2")){
+                break;
+            }
+        }
+            
+            
 
         
         

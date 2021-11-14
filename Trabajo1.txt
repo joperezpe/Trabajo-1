@@ -35,11 +35,26 @@ public class Trabajo {
                 break;
             }
         }
-        //1.3 IMPRESION DE LOS DATOS: DATO Y POSICION
+            
+            // IMPRESION DE LOS DATOS: DATO Y POSICION
         System.out.println("\nDATOS RECOLECTADOS:");
         for (int i = 0; i < registros.size(); i ++){
             System.out.println("Dato: " + registros.get(i) + " Posición: " + (i));
         }
+      
+           // TABLA DE RESUMEN
+        int totalRegistros = registros.size();
+        int totalCamion = 0;
+        int totalAutomovil = 0;
+        int totalMotocicleta = 0;
+        int totalGiros = 0;
+        int totalGirosCamion = 0;
+        int totalGirosAutomovil = 0;
+        int totalGirosMotocicleta = 0;
+
+
+ 
+        
 
 
         

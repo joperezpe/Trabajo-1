@@ -36,7 +36,12 @@ public class Trabajo {
             }
         }
             
-            
+            // IMPRESION DE LOS DATOS: DATO Y POSICION
+        System.out.println("\nDATOS RECOLECTADOS:");
+        for (int i = 0; i < registros.size(); i ++){
+            System.out.println("Dato: " + registros.get(i) + " Posición: " + (i));
+        }
+
 
         
         

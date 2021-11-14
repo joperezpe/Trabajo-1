@@ -88,6 +88,16 @@ public class Trabajo {
                 totalGirosMotocicleta += 1;
             }
         }
+        
+        System.out.println("\nTABLA RESUMEN:");
+        System.out.println("Total De Registros: " + totalRegistros);
+        System.out.println("Total De Camiones: " + totalCamion);
+        System.out.println("Total De Automoviles: " + totalAutomovil);
+        System.out.println("Total De Motocicletas: " + totalMotocicleta);
+        System.out.println("\nTotal De Giros: " + totalGiros);
+        System.out.println("Total De Giros Para Camiones: " + totalGirosCamion);
+        System.out.println("Total De Giros Para Automoviles: " + totalGirosAutomovil);
+        System.out.println("Total De Giros Para Motocicletas: " + totalGirosMotocicleta);
 
 
  

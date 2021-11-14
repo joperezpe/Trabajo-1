@@ -1,0 +1,6 @@
+import java.util.*;
+public class Trabajo {
+
+  public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        ArrayList<String> registros = new ArrayList<String>();

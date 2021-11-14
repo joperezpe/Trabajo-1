@@ -4,3 +4,18 @@ public class Trabajo {
   public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         ArrayList<String> registros = new ArrayList<String>();
+        
+         //1.2 RECOLECCION DE DATOS
+        while (true){
+            String vehiculo;
+            String viaOrigen;
+            String viaDestino;
+            String entrada;
+            String formato;
+
+            System.out.println("\nIngrese C para Camion");
+            System.out.println("Ingrese A para Automovil");
+            System.out.println("Ingrese M para Motocicleta");
+            vehiculo = sc.nextLine();
+        
+        

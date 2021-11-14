@@ -119,6 +119,19 @@ public class Trabajo {
                 System.out.println("Registro borrado: " + registros.get(indice));
                 registros.remove(indice);
             }
+            
+            System.out.println("\nIngrese 1 si Quiere seguir borrando o consultando");
+            System.out.println("Ingrese 2 si No quiere seguir borrando o consultando");
+            entrada = sc.nextLine();
+
+            if (entrada.equals("2")){
+                break;
+            }
+        }
+
+    }
+
+}
 
 
  

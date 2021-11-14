@@ -106,6 +106,13 @@ public class Trabajo {
             System.out.println("\nIngrese 1 si quiere buscar");
             System.out.println("Ingrese 2 si quiere borrar");
             entrada = sc.nextLine();
+            
+            if (entrada.equals("1")){
+                System.out.println("Ingrese el indice que quiere buscar");
+                indice = sc.nextInt();
+                sc.skip("\n");
+                System.out.println("Registro obtenido: " + registros.get(indice));
+            }
 
 
  

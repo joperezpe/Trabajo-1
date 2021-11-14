@@ -112,6 +112,12 @@ public class Trabajo {
                 indice = sc.nextInt();
                 sc.skip("\n");
                 System.out.println("Registro obtenido: " + registros.get(indice));
+            }else if (entrada.equals("2")){
+                System.out.println("Ingrese el indice que quiere borrar");
+                indice = sc.nextInt();
+                sc.skip("\n");
+                System.out.println("Registro borrado: " + registros.get(indice));
+                registros.remove(indice);
             }
 
 
